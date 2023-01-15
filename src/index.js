@@ -27,7 +27,7 @@ const runGame = (descr, getGameData) => {
       return;
     }
   }
-  console.log(`Congratulation, ${name}!`);
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default runGame;
