@@ -6,7 +6,7 @@ const getProgression = (start, step, length, hiddenNumberIndex) => {
 
   for (let i = 0; i < length; i += 1) {
     if (i === hiddenNumberIndex) {
-      progression += '... ';
+      progression += '.. ';
     } else {
       progression += `${start + step * i} `;
     }
